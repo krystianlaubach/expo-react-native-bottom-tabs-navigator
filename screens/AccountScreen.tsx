@@ -1,16 +1,14 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet } from 'react-native';
 
-function BranchesScreen() {
+export default function AccountScreen(): JSX.Element {
     return (
         <View style={ styles.rootContainer }>
             <Text>
-                This is the <Text style={ styles.highlight }>"Branches"</Text> screen!
+                This is the <Text style={ styles.highlight }>"Account"</Text> screen!
             </Text>
         </View>
     );
 }
-
-export default BranchesScreen;
 
 const styles = StyleSheet.create({
     rootContainer: {

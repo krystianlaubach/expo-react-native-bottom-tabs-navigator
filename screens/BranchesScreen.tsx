@@ -1,16 +1,14 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-function HomeScreen() {
+export default function BranchesScreen(): JSX.Element {
     return (
         <View style={ styles.rootContainer }>
             <Text>
-                This is the <Text style={ styles.highlight }>"Home"</Text> screen!
+                This is the <Text style={ styles.highlight }>"Branches"</Text> screen!
             </Text>
         </View>
     );
 }
-
-export default HomeScreen;
 
 const styles = StyleSheet.create({
     rootContainer: {

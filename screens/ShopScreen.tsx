@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-function ShopScrees() {
+export default function ShopScrees(): JSX.Element {
     return (
         <View style={ styles.rootContainer }>
             <Text>
@@ -9,8 +9,6 @@ function ShopScrees() {
         </View>
     );
 }
-
-export default ShopScrees;
 
 const styles = StyleSheet.create({
     rootContainer: {

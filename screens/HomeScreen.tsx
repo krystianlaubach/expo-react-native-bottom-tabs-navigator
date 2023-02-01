@@ -1,16 +1,14 @@
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
-function AccountScreen() {
+export default function HomeScreen(): JSX.Element {
     return (
         <View style={ styles.rootContainer }>
             <Text>
-                This is the <Text style={ styles.highlight }>"Account"</Text> screen!
+                This is the <Text style={ styles.highlight }>"Home"</Text> screen!
             </Text>
         </View>
     );
 }
-
-export default AccountScreen;
 
 const styles = StyleSheet.create({
     rootContainer: {
